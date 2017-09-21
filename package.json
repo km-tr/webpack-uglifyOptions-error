@@ -1,0 +1,25 @@
+{
+  "name": "webpack-uglifyOptions-error",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "drop-console": "webpack",
+    "no-drop-console": "webpack --config webpack.config.no.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/km-tr/webpack-uglifyOptions-error.git"
+  },
+  "keywords": [],
+  "author": "kmtr <kumagai@bear.tokyo>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/km-tr/webpack-uglifyOptions-error/issues"
+  },
+  "homepage": "https://github.com/km-tr/webpack-uglifyOptions-error#readme",
+  "devDependencies": {
+    "webpack": "~3.6.0"
+  }
+}
